@@ -1,6 +1,9 @@
 # @frontiercompute/zap1
 
 [![ci](https://github.com/Frontier-Compute/zap1-js/actions/workflows/ci.yml/badge.svg)](https://github.com/Frontier-Compute/zap1-js/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/@frontiercompute/zap1)](https://www.npmjs.com/package/@frontiercompute/zap1)
+![downloads](https://img.shields.io/npm/dw/@frontiercompute/zap1)
+![license](https://img.shields.io/npm/l/@frontiercompute/zap1)
 
 ZAP1 Merkle proof verification for JavaScript and TypeScript. WASM-powered BLAKE2b-256 with ZAP1 domain-separated personalizations.
 
@@ -68,6 +71,15 @@ const parent = await nodeHash(leftHex, rightHex);
 ## Protocol
 
 See [ONCHAIN_PROTOCOL.md](https://github.com/Frontier-Compute/zap1/blob/main/ONCHAIN_PROTOCOL.md) for the full ZAP1 specification.
+
+## Related Packages
+
+| Package | What it does |
+|---------|-------------|
+| [@frontiercompute/zcash-ika](https://www.npmjs.com/package/@frontiercompute/zcash-ika) | Zcash + Bitcoin signing via Ika 2PC-MPC |
+| [@frontiercompute/zcash-mcp](https://www.npmjs.com/package/@frontiercompute/zcash-mcp) | MCP server for Zcash (22 tools) |
+| [@frontiercompute/openclaw-zap1](https://www.npmjs.com/package/@frontiercompute/openclaw-zap1) | OpenClaw skill for ZAP1 attestation |
+| [@frontiercompute/silo-zap1](https://www.npmjs.com/package/@frontiercompute/silo-zap1) | Silo agent attestation via ZAP1 |
 
 ## License
 
